@@ -417,3 +417,85 @@ a {
 .feature__cta {
   margin-top: 38px;
 }
+
+/* member */
+.member {
+  padding: 85px 0;
+}
+
+.member__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member__cta {
+  margin-top: 38px;
+}
+
+.member__list {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+}
+
+.member-item__img-bg {
+  background: #eaf6ff;
+  padding-top: 28px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.member-item__thumb {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  height: 290px;
+}
+
+.member-item__name {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  text-align: center;
+  color: #10375c;
+  margin-top: 12px;
+}
+
+.member-item__desc {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
+  color: #575f66;
+}
+
+.member__control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 38px;
+  column-gap: 18px;
+}
+
+.member__control-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #575f66;
+  outline: none;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #575f66;
+  transition: 0.25;
+}
+
+.member__control-btn:hover {
+  cursor: pointer;
+  background: #2e80ce;
+  border-color: #2e80ce;
+  color: #fff;
+}
